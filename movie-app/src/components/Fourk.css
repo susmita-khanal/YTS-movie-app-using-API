@@ -1,0 +1,139 @@
+.fourk {
+  background-color: rgb(26, 23, 23);
+  border-top: 1px solid grey;
+}
+.fourk-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 23, 23);
+}
+.search-term {
+  width: 60%;
+  margin-top: 40px;
+  color: gray;
+  font-weight: 700;
+  font-size: 24px;
+}
+.Browse-input {
+  width: 86%;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(78, 78, 78);
+}
+.browse-input-button {
+  padding: 10px 26px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 30px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.choose-input {
+  display: flex;
+  width: 86%;
+  /* width: 100%; */
+  margin: 30px 0;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.select {
+  width: 120px;
+  height: 40px;
+  border: none;
+  padding-left: 8px;
+  border-radius: 4px;
+  text-align: start;
+  background-color: rgb(58, 58, 58);
+  color: rgb(199, 199, 199);
+  font-size: 16px;
+  font-weight: 400;
+}
+.quality {
+  margin-bottom: 10px;
+  color: grey;
+  font-weight: 500;
+}
+.trending-lowerpart {
+  background-color: rgb(29, 28, 28);
+}
+.trending-lower-heading {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+  text-align: center;
+}
+.trending-lower-heading-paragraph {
+  color: rgb(144, 227, 241);
+}
+/* .next a {
+  background-color: rgb(29, 28, 28);
+  color: white;
+  border: 1px solid grey;
+  padding: 12px 12px;
+  margin: 0 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.next button:hover {
+  background-color: green;
+} */
+
+.trending-bottom-part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  /* margin: auto; */
+}
+.bottom-box {
+  width: 180px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px 20px;
+}
+.bottom-image {
+  width: 180px;
+  height: 300px;
+  border-radius: 8px;
+  border: 4px solid white;
+}
+.bottom-image:hover {
+  border: 4px solid green;
+}
+.bottom-title {
+  color: white;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bottom-title:hover {
+  color: grey;
+}
+.bottom-year {
+  color: grey;
+}
+.loader {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.pagelane {
+  background-color: rgb(26, 23, 23);
+}

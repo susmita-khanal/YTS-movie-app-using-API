@@ -1,0 +1,50 @@
+.trending {
+  background-color: rgb(37, 37, 37);
+}
+.trending-container {
+  width: 96%;
+  /* background-color: rgb(0, 0, 0); */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.trending-heading {
+  text-align: center;
+  color: rgb(67, 185, 67);
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+.trending-group {
+  margin-top: 20px;
+  width: 180px;
+  height: 310px;
+  padding: 0 30px;
+  margin-left: 40px;
+}
+
+.trending-img {
+  width: 180px;
+  height: 260px;
+  border: 4px solid white;
+  border-radius: 8px;
+}
+.trending-img:hover {
+  border: 4px solid green;
+}
+.trend-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  color: white;
+  font-weight: 600;
+}
+.trend-title:hover {
+  color: grey;
+}
+.trend-year {
+  color: grey;
+}

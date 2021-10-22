@@ -1,0 +1,53 @@
+.sideicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  right: 0px;
+  top: 30%;
+}
+.twitter {
+  background-color: rgb(112, 250, 255);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 8px;
+  transition: all 1s width, ease-out;
+}
+.twitter:hover {
+  font-size: 40px;
+  padding: 8px;
+}
+.facebook:hover {
+  font-size: 30px;
+}
+.qrcode:hover {
+  font-size: 40px;
+}
+.linkedin:hover {
+  font-size: 40px;
+}
+
+.facebook {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  padding: 10px;
+  /* border: 1px solid black; */
+  background-color: blue;
+  text-align: center;
+  transition: all 1s width, ease-out;
+}
+.qrcode {
+  background-color: rgb(43, 58, 83);
+  color: white;
+  font-size: 30px;
+  padding: 8px;
+  transition: all 1s width, ease-out;
+}
+.linkedin {
+  background-color: orange;
+  color: white;
+  font-size: 30px;
+  padding: 8px;
+  transition: all 1s width, ease-out;
+}

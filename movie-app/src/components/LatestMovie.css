@@ -1,0 +1,171 @@
+.latestmovie {
+  background-color: black;
+}
+.title-line {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.left-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.browse {
+  text-decoration: none;
+  color: gray;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+}
+.latest {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+  display: flex;
+  overflow: auto;
+}
+.latest::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+.image-latest {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  padding: 20px;
+  position: relative;
+  display: block;
+  margin-left: 24px;
+}
+.limg {
+  width: 220px;
+  height: 320px;
+  border: 6px solid white;
+  border-radius: 4px;
+}
+.limg:hover {
+  border: 6px solid green;
+}
+.limage {
+  width: 100%;
+  height: 100%;
+}
+/* .limage:hover {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  transition-property: height;
+  transition-duration: 2s;
+} */
+.ltitle {
+  color: white;
+  /* text-align: justify; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.ltitle:hover {
+  color: grey;
+}
+.lyear {
+  color: grey;
+}
+.mid::before {
+  content: "";
+}
+.mid::after {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  position: absolute;
+  /* left: 36%; */
+  top: 40%;
+}
+/* .mid::after {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  left: 36%;
+  top: 40%;
+} */
+.mid-icon-star {
+  color: green;
+}
+.image-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.image-overlay:hover {
+  opacity: 1;
+}
+.latest-button {
+  /* margin-top: 60px; */
+  position: absolute;
+  bottom: 100px;
+  left: 70px;
+  width: 110px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: green;
+}
+.ratings {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(44, 120, 150);
+  padding-top: 40px;
+}
+.mid-icon-star {
+  position: absolute;
+  /* left: 92px; */
+  top: 60px;
+  font-size: 28px;
+}
+.genre {
+  color: rgb(100, 44, 44);
+  width: 70%;
+  position: absolute;
+  top: 140px;
+  text-align: center;
+  left: 60px;
+  /* text-align: justify; */
+  font-weight: 600;
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.latest-button {
+  /* position: absolute; */
+  /* background-color: rgb(8, 148, 8);
+  color: white;
+  margin-top: 20px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none; */
+  /* bottom: 140px;
+  right: 40px;
+  opacity: 0;
+  transition: 0.25s; */
+}
+.latest-button:hover {
+  /* opacity: 1; */
+}
+.latest-link {
+  text-decoration: none;
+  /* color: black; */
+}
